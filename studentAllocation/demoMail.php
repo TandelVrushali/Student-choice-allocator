@@ -28,16 +28,16 @@ $mail->SMTPSecure = "tls";
 $mail->Port = "587";
 
 //set gmail username
-$mail->Username = "uniofleicester1@gmail.com";
+$mail->Username = "demo@gmail.com";
 
 //set gmail password
-$mail->Password = "rxhvyrdgxvxghdlu";
+$mail->Password = "xyz";
 
 //set email subject
 $mail->Subject = "Testing of email";
 
 //set sender email
-$mail->setFrom("uniofleicester1@gmail.com");
+$mail->setFrom("demo@gmail.com");
 
 //email body
 $mail->Body = "Allocation is Published";
